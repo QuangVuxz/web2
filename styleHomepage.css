@@ -1,0 +1,49 @@
+/* Style the search bar */
+form {
+    /* Add some padding and a border */
+    
+    /* Use flexbox to center the search bar within the form element */
+    display: flex;
+    justify-content: center;
+    }
+
+    input[type="text"] {
+    /* Give the search bar some padding and a border */
+    padding: 10px;
+    border: 1px solid #ccc;
+    /* Make the search bar wider */
+    width: 50%;
+    /* Add some rounded corners */
+    border-radius: 10px;
+    margin-right: 10px;
+    }
+    /* Style the container element */
+    .container {
+    /* Add some padding and a border */
+        padding: 20px;
+        border: 1px solid #ccc;
+        /* Center the content within the container */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Style the heading */
+    h1 {
+        /* Change the font size and color */
+        font-size: 36px;
+        color: #333;
+    }
+    /* Style the submit button */
+    button[type="submit"] {
+    /* Add some padding and a border */
+    padding: 10px 20px;
+    border: none;
+    /* Change the background color and text color */
+    background-color: #4CAF50;
+    color: white;
+    /* Add some rounded corners */
+    border-radius: 10px;
+    /* Change the cursor to a pointer when hovering over the button */
+    cursor: pointer;
+    }

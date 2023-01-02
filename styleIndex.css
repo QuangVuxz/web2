@@ -1,0 +1,64 @@
+/* Add some styling to the page */
+      body {
+        font-family: Arial, sans-serif;
+        color: #333;
+        background-image: url('32b04702a2da4699ab378a0e7dcb45ff.jpg');
+        background-size: cover;
+        background-position: center;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      
+      li {
+        float: right;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li.current a, li a:hover, li a:active, li a:focus {
+        background-color: #111;
+        color:red;
+      }
+      h1 {
+        font-size: 3em;
+        text-align: center;
+        margin: 1em 0;
+        color: white;
+      }
+      
+      p {
+        font-size: 1.5em;
+        line-height: 1.5;
+        margin: 0.5em 0;
+        color: white;
+      }
+      
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 1em;
+      }
+      
+      /* Add some styling to the call-to-action button */
+      .cta-btn {
+        display: inline-block;
+        padding: 0.5em 1em;
+        color: white;
+        background-color: #00b0ff;
+        border-radius: 0.25em;
+        text-decoration: none;
+      }
+      
+      .cta-btn:hover {
+        background-color: #0091ea;
+      }

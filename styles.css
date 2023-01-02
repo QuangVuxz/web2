@@ -1,0 +1,94 @@
+:root {
+   --font-style: "Nunito Sans", sans-serif;
+ }
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   text-decoration: none;    
+}
+
+body{
+   margin: 0;
+   padding: 0;
+   font-family: monospace;
+   background-image: url('./32b04702a2da4699ab378a0e7dcb45ff.jpg');
+}
+
+.profile{   
+   position: absolute;
+   top: 50%;
+   left: 50%;   
+   padding: 40px;
+   transform: translate(-50%, -50%);
+   background: #242026;
+   box-shadow: 0 15px 25px rgb(143 124 236 / 70%);
+   border-radius: 10px;
+   text-align: center;   
+}
+
+.profile h3{
+   color: white;   
+}
+
+.profile a{
+   text-decoration: none;
+   padding: 10px 20px;
+   color: #cbbddb;
+   font-size: 16px;
+   text-decoration: none;
+   text-transform: uppercase;
+   overflow: hidden;
+   transition: 0.5s;
+   letter-spacing: 4px;
+   border: 1px solid #8f7cec;
+   margin: auto;
+}
+.update-profile{
+   position: absolute;
+   top: 50%;
+   left: 50%;   
+   padding: 40px;
+   transform: translate(-50%, -50%);
+   background: #242026;
+   box-shadow: 0 15px 25px rgb(143 124 236 / 70%);
+   border-radius: 10px;
+   text-align: center; 
+}
+
+
+form span{
+   color: white;
+}
+form a{
+   text-decoration: none;
+   padding: 10px 20px;
+   color: #cbbddb;
+   font-size: 16px;
+   text-decoration: none;
+   text-transform: uppercase;
+   overflow: hidden;
+   transition: 0.5s;
+   letter-spacing: 4px;
+   border: 1px solid #8f7cec;
+   margin: auto;
+}
+form button{   
+   padding: 10px 20px;
+   color: #cbbddb;
+   font-size: 16px;
+   text-decoration: none;
+   text-transform: uppercase;
+   overflow: hidden;
+   transition: 0.5s;
+   letter-spacing: 4px;
+   border: 1px solid #8f7cec;
+   margin: auto;
+}
+
+
+
+
+
+
+ 
